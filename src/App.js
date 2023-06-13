@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
 
+import CitySearch from "./components/CitySearch";
+
+
 function App() {
   const [airQualityData, setAirQualityData] = useState(null);
 
@@ -9,7 +12,7 @@ function App() {
   const getAirQuality = async (city) => {
     try {
       const response = await fetch(
-        `https://api.waqi.info/feed/${city}/?token=${process.env.REACT_APP_AQI_API_TOKEN}`
+        `https://api.waqi.info/feed/${city}/?token=efb14871331897cb958aa50e65c142dcc001f8a8`
       );
       const data = await response.json();
 
