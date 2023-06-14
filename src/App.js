@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import "./App.css";
 import CitySearch from "./components/CitySearch";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import AirQualityCard from "./components/AirQualityCard";
+import "./App.css";
+
 
 
 
