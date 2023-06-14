@@ -49,6 +49,15 @@ function App() {
           {error}
         </div>
       )}
+
+{/* if there is data on the airQualityData state. Show it */}
+      {airQualityData && (
+        //Air quality card component
+        // Pollutant info
+        <>
+
+        </>
+      )}
     </div>
   );
 }
