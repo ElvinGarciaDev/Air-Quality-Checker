@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-
 import CitySearch from "./components/CitySearch";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 function App() {
@@ -37,11 +37,18 @@ function App() {
   };
 
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="container">
+      <h1 className="mt-5 mb-3">Air Quality Index Checker</h1>
 
       {/* Call the CitySearh comp and pass in the getAirQuality function as a prop */}
       <CitySearch getAirQuality={getAirQuality} />
+
+{/* if the error state contains an error. show this div */}
+      {error && (
+        <div className="alert alert-danger" role="alert">
+          {error}
+        </div>
+      )}
     </div>
   );
 }
