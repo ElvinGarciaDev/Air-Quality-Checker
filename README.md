@@ -13,8 +13,6 @@ Introducing "AirCheck," a React app that provides real-time air quality informat
 ## Usage
 
 1. run `npm start`
-2. Navigate to `localhost:8000`
-
 
 In the project directory, you can run:
 
