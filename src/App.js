@@ -64,7 +64,6 @@ function App() {
       )}
       <AirQualityLevelsTable />
       <p>Location-specific API data sourced from the World Air Quality Index Project. <a href='https://aqicn.org/api/'>LINK</a></p>
-
     </div>
   );
 }
