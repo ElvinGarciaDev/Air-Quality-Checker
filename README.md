@@ -1,8 +1,20 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How It's Made:
 
-## Available Scripts
+**Tech used:** HTML, CSS, JavaScript, Bootstrap, React
+
+Introducing "AirCheck," a React app that provides real-time air quality information using the AQICN.org API. With a sleek interface, users can easily search for cities and view the current AQI, pollutant levels, and health recommendations.
+
+## Installation
+
+1. Clone repo
+2. run `npm install`
+
+## Usage
+
+1. run `npm start`
+2. Navigate to `localhost:8000`
+
 
 In the project directory, you can run:
 
