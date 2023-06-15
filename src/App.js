@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import CitySearch from "./components/CitySearch";
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css";
 import AirQualityCard from "./components/AirQualityCard";
 import PollutantInfo from "./components/PollutantInfo";
 import AirQualityLevelsTable from "./components/AirQualityLevelsTable";
 
 import "./App.css";
-
-
-
 
 function App() {
   const [airQualityData, setAirQualityData] = useState(null);
@@ -49,25 +46,23 @@ function App() {
       {/* Call the CitySearh comp and pass in the getAirQuality function as a prop */}
       <CitySearch getAirQuality={getAirQuality} />
 
-{/* if the error state contains an error. show this div */}
+      {/* if the error state contains an error. show this div */}
       {error && (
         <div className="alert alert-danger" role="alert">
           {error}
         </div>
       )}
 
-{/* if there is data on the airQualityData state. Show it */}
+      {/* if there is data on the airQualityData state. Show it */}
       {airQualityData && (
         //Air quality card component
         // Pollutant info
         <>
-                <AirQualityCard data={airQualityData}/>
-                <PollutantInfo pollutant={airQualityData.dominentpol}/>
-                <AirQualityLevelsTable/>
-
-
+          <AirQualityCard data={airQualityData} />
+          <PollutantInfo pollutant={airQualityData.dominentpol} />
         </>
       )}
+      <AirQualityLevelsTable />
     </div>
   );
 }
