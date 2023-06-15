@@ -1,7 +1,5 @@
 
-## How It's Made:![AirCheck](https://github.com/ElvinGarciaDev/Air-Quality-Checker/assets/91163017/6e6323f9-02f6-42f3-83ca-fbd65b41d843)
-
-<br></br>
+![AirCheck](https://github.com/ElvinGarciaDev/Air-Quality-Checker/assets/91163017/6e6323f9-02f6-42f3-83ca-fbd65b41d843)
 
 
 **Tech used:** HTML, CSS, JavaScript, Bootstrap, React
